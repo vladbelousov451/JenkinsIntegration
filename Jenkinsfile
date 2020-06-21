@@ -30,7 +30,5 @@ node {
             } 
                 echo "Trying to Push Docker Build to DockerHub"
     }
-    stage('run images') {
-        docker run -p 8000:8000 vladibelousov54/nodeapp
-    }
+    
 }
