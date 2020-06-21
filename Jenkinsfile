@@ -34,3 +34,5 @@ node {
 		docker run vladibelousov54/nodeapp -p 8000:8000
 	}
 }
+}
+
